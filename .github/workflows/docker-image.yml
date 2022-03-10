@@ -2,10 +2,8 @@ name: Publish Docker image
 
 on:
   push:
-    branch:
-      - 'main'
     tags:
-      - 'V1.*.*'
+      - 'v1.*.*'
 
 jobs:
   push_to_registry:
