@@ -1,2 +1,2 @@
 FROM alpine:latest
-#dqzddqzddqzddqzdtest test test test tesdqzdqdzt
+RUN apk add --no-cache bash
